@@ -43,6 +43,14 @@ public class SortableCarTableView extends SortableTableView<Car> {
         tableColumnWeightModel.setColumnWeight(1, 3);
         tableColumnWeightModel.setColumnWeight(2, 3);
         tableColumnWeightModel.setColumnWeight(3, 2);
+        tableColumnWeightModel.setColumnWeight(4, 2);
+        tableColumnWeightModel.setColumnWeight(5, 3);
+        tableColumnWeightModel.setColumnWeight(6, 3);
+        tableColumnWeightModel.setColumnWeight(7, 2);
+        tableColumnWeightModel.setColumnWeight(8, 2);
+        tableColumnWeightModel.setColumnWeight(9, 3);
+        tableColumnWeightModel.setColumnWeight(10,3);
+        tableColumnWeightModel.setColumnWeight(11,2);
         setColumnModel(tableColumnWeightModel);
 
         setColumnComparator(0, CarComparators.getCarProducerComparator());

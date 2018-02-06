@@ -8,19 +8,19 @@ package de.codecrafters.tableviewexample.data;
  */
 public class Car implements Chargable {
 
-    private final CarProducer producer;
+    private final MortyType producer;
     private final int ps;
     private final double price;
     private String name;
 
-    public Car(final CarProducer producer, final String name, final int ps, final double price) {
+    public Car(final MortyType producer, final String name, final int ps, final double price) {
         this.producer = producer;
         this.name = name;
         this.ps = ps;
         this.price = price;
     }
 
-    public CarProducer getProducer() {
+    public MortyType getProducer() {
         return producer;
     }
 
