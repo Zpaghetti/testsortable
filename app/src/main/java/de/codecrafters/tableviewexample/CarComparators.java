@@ -24,9 +24,7 @@ public final class CarComparators {
         return new CarPowerComparator();
     }
 
-    public static Comparator<Car> getCarNameComparator() {
-        return new CarNameComparator();
-    }
+    public static Comparator<Car> getCarNameComparator() {return new CarNameComparator();}
 
     public static Comparator<Car> getCarPriceComparator() {
         return new CarPriceComparator();
