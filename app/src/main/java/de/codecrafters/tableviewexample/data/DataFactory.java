@@ -19,7 +19,7 @@ public final class DataFactory {
      */
     public static List<Car> createCarList() {
         final CarProducer audi = new CarProducer(R.mipmap.rock, "Audi");
-        final Car audiA1 = new Car(audi, "penis", 150, 25000);
+        final Car audiA1 = new Car(audi, "test", 150, 25000);
         final Car audiA3 = new Car(audi, "A3", 120, 35000);
         final Car audiA4 = new Car(audi, "A4", 210, 42000);
         final Car audiA5 = new Car(audi, "S5", 333, 60000);
